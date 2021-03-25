@@ -1,0 +1,99 @@
+@media (max-width: 1024px) {
+  .navbar-brand {
+  font-size: 15px;
+  font-weight: 900;
+  }
+ .btn {
+  width: 150px;
+  height: 35px;
+  background-color: #00a046;
+  border-radius: 5px;
+  margin-top: 10px;
+  }
+ .btn_text {
+   font-size: 15px;
+   font-weight: 600;
+   color: #ffffff;
+  }
+}
+
+@media (max-width: 767px) {
+.description h3 {
+  font-size: 14px;
+ }
+ .description img {
+  width: 20px;
+  height: 20px;
+ }
+.description_text {
+  font-size: 12px;
+ }
+.tab-pane {
+  font-size: 12px;
+  margin-left:  15px;
+ }
+.card-body-item-img {
+ margin-top: 30px;
+ max-width: 150px;
+}
+}
+
+@media (max-width: 425px) {
+.navbar-brand {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 75px; 
+  }
+.menu .btn {
+ margin-left: 110px;
+ }
+h1 {
+  font-size: 18px;
+ }
+ h2 {
+  font-size: 16px;
+  margin-top:  10px;
+ }
+ .description {
+  margin-top:  15px;
+  padding-left: 50px;
+ }
+ .description_text {
+  margin-top:  5px;
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  width: 250px;
+ }
+ .tab-pane .fade .show .active {
+  width: 350px;
+ }
+.card {
+ margin: 10px;
+ margin-top: 15px;
+ width: 350px;
+ margin-left:  15px;
+ }
+ .carousel_card img {
+  width: 75px;
+  margin-left:  65px;
+ }
+ .cartridges_block img {
+  width:  120px;
+  margin-top:  45px;
+ }
+}
+
+@media (max-width: 320px) {
+.card {
+ margin: 10px;
+ width: 300px;
+ margin-left:  10px;
+ }
+.cartridges_block img {
+ width:  100px;
+ margin-top:  45px;
+ }
+.card-text {
+  font-size: 12px;
+ }
+}

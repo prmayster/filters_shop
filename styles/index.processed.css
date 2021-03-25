@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/**
+ * index.scss
+ * - Add any styles want here!
+ */
+body {
+  background: #f5f5f5;
+}
+
+header {
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 900;
+  margin-right: 75px;
+}
+
+.navbar-light .navbar-brand {
+  color: #0069d9;
+}
+
+.bg-light {
+  background-color: none;
+}
+
+.btn {
+  width: 200px;
+  height: 45px;
+  background-color: #00a046;
+  border-radius: 5px;
+}
+
+.btn_text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn_text:hover {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.btn:hover {
+  border: 3px solid f;
+}
+
+.header_slider {
+  margin-top: 75px;
+}
+
+.text h1 {
+  text-align: center;
+  padding-top: 25px;
+  color: #0069d9;
+}
+
+.text h2 {
+  text-align: center;
+  color: #0069d9;
+}
+
+.content {
+  margin-top: 20pxreplaceable;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+}
+
+.description img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.description_text {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.tab-content, .tab_faq {
+  margin-top: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #0069d9;
+}
+
+.tab_form {
+  margin-top: 15px;
+}
+
+.tab_form_btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 150px;
+  height: 45px;
+  backound-color: #00a046;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.card {
+  width: 250px;
+}
+
+.card .card_img {
+  display: block;
+  background-image: url(https://pozdravimvsekh.ru/wp-content/uploads/2018/09/kartinka-s-dobrym-utrom.jpg);
+  max-width: 100;
+  height: 100px;
+}
+
+.price {
+  border-bottom: 1px solid #0069d9;
+  padding: 5px;
+}
+
+.price_text {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.price_old {
+  text-decoration: line-through;
+  font-size: 15px;
+  color: #ff0000;
+}
+
+.price_new {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card-text_desc {
+  margin-left: 5px;
+  padding: 0;
+}
+
+.card-text_desc li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+.filters_carysel {
+  margin-to2: 20px;
+}
+
+.filters .card {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.card-body-item {
+  border: solid 1px #0069d9;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.card-body-item-img {
+  margin-top: 50px;
+  max-width: 125px;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 65%;
+  z-index: 3;
+  width: 45px;
+  height: 185px;
+  right: 0;
+  border-radius: 7px 0 0 7px;
+  border: 1px solid #0069d9;
+}
+
+.widgets_icons {
+  margin: 2px;
+  height: 45px;
+  margin-left: 2px;
+}
+
+.footer_block {
+  border-top: 10px solid #0069d9;
+  margin-top: 25px;
+}
+
+.footer_block li {
+  font-size: 14px;
+}
+
+.footer_line {
+  border-top: 50px solid #0069d9;
+}
